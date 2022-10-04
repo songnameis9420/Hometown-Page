@@ -1,0 +1,107 @@
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.hero {
+    display: block;
+    margin: 0 auto;
+    background-image: url("images/hn-bg.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 350px;
+}
+
+.headline {
+    color: #222222;
+}
+
+.activities {
+    background-color: #edf2f4;
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.h2-act {
+    background-color: #edf2f4;
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.act-1-img {
+    background-image: url("images/hk-lake.png");
+    background-size: cover;
+}
+
+.act-2-img {
+    background-image: url("images/lake-side.jpg");
+    background-size: cover;
+}
+
+.act-3-img {
+    background-image: url("images/pho.jpg");
+    background-size: cover;
+}
+
+.act-1-img, .act-2-img, .act-3-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.act-1, .act-2, .act-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.middle { 
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 200px;
+}
+
+.guide {
+    display: flex;
+    width: 600px;
+    margin: 0px auto;
+    border-bottom: 5px solid black;
+    background-color: #edede9;
+    text-shadow: 0 0 5px white;
+}
+
+.nishi-img {
+    width: 180px;
+    padding: 25px;
+}
+
+.per-text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.last {
+    background: linear-gradient(#d6ccc2, #edede9);
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.act-1-img:hover {
+    background-image: url("images/hn-lake-night.jpg");
+}
+
+.act-2-img:hover {
+    background-image: url("images/lake-side-night.jpg");
+}
+
+.act-3-img:hover {
+    background-image: url("images/pho-2.jpg");
+}
